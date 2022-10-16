@@ -243,8 +243,22 @@ body {
   padding-bottom: 50px;
 }
 
-.menu_item {
+.top_menu_item {
   width: 49%;
+}
+
+.menu_page_item {
+  width: 100%;
+}
+
+.top_menu_item {
+  display: flex;
+  flex-direction: row-reverse;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+}
+
+.menu_item {
   display: flex;
   flex-direction: row-reverse;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
